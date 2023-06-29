@@ -1,0 +1,84 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:sans-serif ;
+}
+.container{
+    background-color: black;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    width: 80%;
+    margin: auto;
+    padding:20px 0
+}
+.logo{
+ width:40px
+}
+ul li {
+   display: inline-block ;
+   list-style-type: none;
+}
+ul li a{
+    color: #fff ;
+    text-decoration: none;
+    margin: 0 10px;
+ }
+ .content{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   width: 80%;
+   margin: auto;
+   margin-top: 5%;
+   
+ }
+ .content .text{
+    width: 50%;
+    color: #fff;
+ }
+ .content .text h2{
+    font-size: 40px;
+    text-transform: uppercase;
+ }
+ .content .text p{
+   font-size: 18px;
+   margin: 20px 0;
+   
+    }
+ .content .text a{
+    text-decoration: none;
+    background: #fff;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 15px;
+   
+ } 
+
+ .content .image{
+    width:30;
+ }
+ .content .image img{
+    width: 180px;
+ }
+ .lo{
+   border-right: 1px solid white;
+ }
+ .icons{
+   position: absolute;                             /*met3al9a bel position relative fi container bech t5alah fard page*/
+   bottom: 0;
+   left: 50%;                                     /*bech n9areb ltsawer on the left 50% */
+ }
+ .icons img{
+   width: 40px;
+   cursor: pointer;
+ }
+ .icons img:hover{
+   transform: scale(1.3);                       /*bech nhot lsorie aale ltswira ltaswira takber b 1.2*/
+}
